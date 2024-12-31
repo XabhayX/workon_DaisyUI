@@ -1,0 +1,52 @@
+
+.hero {
+    max-width: 700px;
+    height: 310px;
+}
+.w-600{
+    width: 600px;
+}
+.myCards{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+/* background-color:rgb(66, 50, 80); */
+}
+.hero:nth-child(even){
+background-color: rgb(73, 70, 70);
+background-color: #5d586f;
+}
+
+.style-script-regular {
+font-family: "Style Script", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.nanum-brush-script-regular {
+font-family: "Nanum Brush Script", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.playwrite-ie-guides-regular {
+font-family: "Playwrite IE Guides", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.diff{
+height: 700px;
+}
+.pagelikes{
+color: #FF52D9
+}
+.viewlikes{
+color:#7480FF
+}
+.hero button{
+min-width: 100px;
+}
+.navbar{
+height: 70px;
+}
