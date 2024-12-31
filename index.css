@@ -50,3 +50,11 @@ min-width: 100px;
 .navbar{
 height: 70px;
 }
+.popChat{
+/* height: 100vh; */
+/* background: black; */
+bottom: 0;
+right: 0;
+z-index: 100;
+position: fixed;
+}

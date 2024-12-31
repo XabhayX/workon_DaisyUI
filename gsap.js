@@ -7,7 +7,19 @@ t.from('.navbar-center ul li', {
     opacity: 0,
     delay: 0.1, 
     stagger: .2 
+}, "!")
+t.from('.popChat', {
+  opacity: 0, 
+  duration: 1, 
+}, "!")
+
+const t1 = gsap.timeline(); 
+t1.to('.popChat',{
+  opacity:0, 
+  delay: 5, 
+  duration: .5
 })
+
 
 t.from('.buildUsingSection', {
     opacity: 0, 
@@ -46,4 +58,3 @@ t.from('.diff', {
         rotation: -15, 
         opacity: 0,
     }, "hero");
-
